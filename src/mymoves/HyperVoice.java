@@ -4,14 +4,12 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
 public final class HyperVoice extends SpecialMove {
-	
+
 	public HyperVoice() {
 		super(Type.NORMAL, 90, 100);
-		
-		
+
 	}
 
-	
 	@Override
 	protected String describe() {
 		String[] pieces = this.getfinal class().toString().split("\\.");

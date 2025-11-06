@@ -6,23 +6,20 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public final class RockTomb extends PhysicalMove{
+public final class RockTomb extends PhysicalMove {
 	public RockTomb() {
 		super(Type.ROCK, 60, 95);
-		
-		
+
 	}
-	
+
 	@Override
 	protected void applyOppEffects(Pokemon p) {
-		
+
 		Effect e = new Effect().stat(Stat.SPEED, -1);
-		
+
 		p.addEffect(e);
 	}
-	
 
-	
 	@Override
 	protected String describe() {
 		String[] pieces = this.getfinal class().toString().split("\\.");
@@ -30,6 +27,3 @@ public final class RockTomb extends PhysicalMove{
 		
 	}
 }
-
-
-

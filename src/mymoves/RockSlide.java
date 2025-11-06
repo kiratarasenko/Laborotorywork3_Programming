@@ -6,25 +6,23 @@ import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 
-public final class RockSlide extends PhysicalMove{
+public final class RockSlide extends PhysicalMove {
 
-		
-		public RockSlide() {
-			super(Type.ROCK, 75, 90);
-			
-			}
-		
-		@Override
-		protected void applyOppEffects(Pokemon p) {
-			
-			if(Program.chance(0.3)) {
-				Effect.flinch(p);
-			}
-			
+	public RockSlide() {
+		super(Type.ROCK, 75, 90);
+
+	}
+
+	@Override
+	protected void applyOppEffects(Pokemon p) {
+
+		if (Program.chance(0.3)) {
+			Effect.flinch(p);
 		}
-		
-		
-		@Override
+
+	}
+
+	@Override
 		protected String describe() {
 			String[] pieces = this.getfinal class().toString().split("\\.");
 			return "does " + pieces[pieces.length-1];

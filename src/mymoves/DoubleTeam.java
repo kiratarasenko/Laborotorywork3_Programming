@@ -7,14 +7,15 @@ import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
 public final class DoubleTeam extends StatusMove {
-	public DoubleTeam() { 
-	super(Type.NORMAL, 0, 0);
-}
+	public DoubleTeam() {
+		super(Type.NORMAL, 0, 0);
+	}
+
 	@Override
 	protected void applySelfEffects(Pokemon p) {
-		
-		Effect e = new Effect().chance(1).stat(Stat.EVASION , 1);
-		
+
+		Effect e = new Effect().chance(1).stat(Stat.EVASION, 1);
+
 		p.addEffect(e);
 
 	}
