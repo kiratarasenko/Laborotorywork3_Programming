@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class Swagger extends StatusMove{
+public final class Swagger extends StatusMove{
 	
 	public Swagger() {
 		super(Type.NORMAL, 0, 85);
@@ -29,7 +29,7 @@ public class Swagger extends StatusMove{
 	
 	@Override
 	protected String describe() {
-		String[] pieces = this.getClass().toString().split("\\.");
+		String[] pieces = this.getfinal class().toString().split("\\.");
 		return "does " + pieces[pieces.length-1];
 		
 	}

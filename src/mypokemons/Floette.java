@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 import src.mymoves.*;
 
-public class Floette extends Pokemon {
+public final class Floette extends Pokemon {
 
 	public Floette(java.lang.String name, int level){
 		super(name, level);

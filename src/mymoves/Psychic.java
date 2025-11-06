@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public class Psychic extends SpecialMove{
+public final class Psychic extends SpecialMove{
 	public Psychic() {
 		super(Type.PSYCHIC, 90, 100);
 		
@@ -24,7 +24,7 @@ public class Psychic extends SpecialMove{
 	
 	@Override
 	protected String describe() {
-		String[] pieces = this.getClass().toString().split("\\.");
+		String[] pieces = this.getfinal class().toString().split("\\.");
 		return "does " + pieces[pieces.length-1];
 		
 	}

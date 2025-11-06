@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 import src.mymoves.*;
 
-public class Zekrom extends Pokemon {
+public final class Zekrom extends Pokemon {
 
 	public Zekrom(java.lang.String name, int level){
 		super(name, level);

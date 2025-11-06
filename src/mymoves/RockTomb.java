@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public class RockTomb extends PhysicalMove{
+public final class RockTomb extends PhysicalMove{
 	public RockTomb() {
 		super(Type.ROCK, 60, 95);
 		
@@ -25,7 +25,7 @@ public class RockTomb extends PhysicalMove{
 	
 	@Override
 	protected String describe() {
-		String[] pieces = this.getClass().toString().split("\\.");
+		String[] pieces = this.getfinal class().toString().split("\\.");
 		return "does " + pieces[pieces.length-1];
 		
 	}

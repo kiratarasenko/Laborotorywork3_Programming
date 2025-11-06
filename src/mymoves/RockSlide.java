@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 
-public class RockSlide extends PhysicalMove{
+public final class RockSlide extends PhysicalMove{
 
 		
 		public RockSlide() {
@@ -26,7 +26,7 @@ public class RockSlide extends PhysicalMove{
 		
 		@Override
 		protected String describe() {
-			String[] pieces = this.getClass().toString().split("\\.");
+			String[] pieces = this.getfinal class().toString().split("\\.");
 			return "does " + pieces[pieces.length-1];
 			
 		}

@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 import src.mymoves.*;
 
-public class PsyDuck extends Pokemon {
+public final class PsyDuck extends Pokemon {
 
 	public PsyDuck(java.lang.String name, int level){
 		super(name, level);

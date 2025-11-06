@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 import src.mymoves.*;
 
-public class Golduck extends Pokemon {
+public final class Golduck extends Pokemon {
 
 	public Golduck(java.lang.String name, int level){
 		super(name, level);
