@@ -19,4 +19,6 @@ public final class Confide extends StatusMove {
 		p.addEffect(e);
 
 	}
+	@Override
+	protected String describe() { return "использует Confide";}
 }

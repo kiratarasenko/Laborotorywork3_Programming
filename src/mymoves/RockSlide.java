@@ -1,6 +1,5 @@
 package src.mymoves;
 
-import Ultilites;
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
@@ -16,16 +15,12 @@ public final class RockSlide extends PhysicalMove {
 	@Override
 	protected void applyOppEffects(Pokemon p) {
 
-		if (Ultilites.chance(0.3)) {
+		if (Utilities.chance(0.3)) {
 			Effect.flinch(p);
 		}
 
 	}
-
 	@Override
-		protected String describe() {
-			String[] pieces = this.getfinal class().toString().split("\\.");
-			return "does " + pieces[pieces.length-1];
-			
-		}
+	protected String describe() { return "использует RockSlide";}
+
 }

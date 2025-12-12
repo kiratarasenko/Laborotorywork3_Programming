@@ -11,9 +11,5 @@ public final class AquaJet extends PhysicalMove {
 	}
 
 	@Override
-	protected String describe() {
-		String[] pieces = this.getfinal class().toString().split("\\.");
-		return "does " + pieces[pieces.length-1];
-		
-	}
+	protected String describe() { return "использует AquaJet";}
 }

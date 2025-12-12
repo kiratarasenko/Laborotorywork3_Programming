@@ -19,5 +19,6 @@ public final class DoubleTeam extends StatusMove {
 		p.addEffect(e);
 
 	}
-
+	@Override
+	protected String describe() { return "использует DoubleTeam";}
 }
