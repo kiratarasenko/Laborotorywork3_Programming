@@ -1,6 +1,6 @@
 package src.mymoves;
 
-import src.Program;
+import Ultilites;
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
@@ -16,7 +16,7 @@ public final class RockSlide extends PhysicalMove {
 	@Override
 	protected void applyOppEffects(Pokemon p) {
 
-		if (Program.chance(0.3)) {
+		if (Ultilites.chance(0.3)) {
 			Effect.flinch(p);
 		}
 

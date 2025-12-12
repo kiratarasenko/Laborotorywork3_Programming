@@ -14,7 +14,6 @@ public class Program {
 	// https://pokemondb.net/pokedex/florges
 
 	public static void main(String[] args) {
-
 		Battle b = new Battle();
 		Pokemon p1 = new PsyDuck("aka", 1);
 		Pokemon p2 = new Zekrom("oko", 1);
@@ -35,7 +34,5 @@ public class Program {
 
 	}
 
-	public static boolean chance(double d) {
-		return d > Math.random();
-	}
+
 }

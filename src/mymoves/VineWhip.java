@@ -1,5 +1,4 @@
 package src.mymoves;
-
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
 
