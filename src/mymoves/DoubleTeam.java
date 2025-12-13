@@ -20,5 +20,5 @@ public final class DoubleTeam extends StatusMove {
 
 	}
 	@Override
-	protected String describe() { return "использует DoubleTeam";}
+	protected String describe() { return "does DoubleTeam";}
 }
