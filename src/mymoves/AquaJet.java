@@ -11,5 +11,6 @@ public final class AquaJet extends PhysicalMove {
 	}
 
 	@Override
-	protected String describe() { return "использует AquaJet";}
+	protected String describe() { return "does AquaJet";}
 }
+ 
