@@ -10,5 +10,5 @@ public final class WaterGun extends SpecialMove {
 	}
 
 	@Override
-	protected String describe() { return "использует WaterGun";}
+	protected String describe() { return "does WaterGun";}
 }
