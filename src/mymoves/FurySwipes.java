@@ -9,5 +9,5 @@ public final class FurySwipes extends PhysicalMove {
 	}
 
 	@Override
-	protected String describe() { return "использует FurySwipes";}
+	protected String describe() { return "does FurySwipes";}
 }
