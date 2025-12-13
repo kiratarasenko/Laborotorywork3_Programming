@@ -20,5 +20,5 @@ public final class Confide extends StatusMove {
 
 	}
 	@Override
-	protected String describe() { return "использует Confide";}
+	protected String describe() { return "does Confide";}
 }
