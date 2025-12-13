@@ -11,5 +11,5 @@ public final class HyperVoice extends SpecialMove {
 	}
 
 	@Override
-	protected String describe() { return "использует HyperVoice";}
+	protected String describe() { return "does HyperVoice";}
 }
