@@ -8,5 +8,5 @@ public final class VineWhip extends PhysicalMove {
 	}
 
 	@Override
-	protected String describe() { return "использует VineWhip";}
+	protected String describe() { return "does VineWhip";}
 }
