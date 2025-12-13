@@ -21,5 +21,5 @@ public final class RockTomb extends PhysicalMove {
 	}
 
 	@Override
-	protected String describe() { return "использует RockTomb";}
+	protected String describe() { return "does RockTomb";}
 }
