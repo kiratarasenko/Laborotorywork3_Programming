@@ -21,6 +21,6 @@ public final class Psychic extends SpecialMove {
 
 	}
 	@Override
-	protected String describe() { return "использует Psychic";}
+	protected String describe() { return "does Psychic";}
 	
 }
